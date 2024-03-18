@@ -1,2 +1,77 @@
+//  * Template Name: Developer - Portfolio/CV/Resume
+// * Version: Bootstrap 5.3.3 +Webpack 5.90.3 
+// * Author: Adrian Adiaconitei for LinkAcademy
+// */
+
 // Import all of Bootstrap's CSS
-@import "bootstrap/scss/bootstrap";
+@import "~bootstrap/scss/bootstrap";
+$bootstrap-icons-font-dir: "~bootstrap-icons/font/fonts";
+@import "~bootstrap-icons/font/bootstrap-icons.scss";
+
+/*
+|----------------------------------------------------------------------------
+   1. FONTS: Google Font
+|----------------------------------------------------------------------------
+*/
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i|Open+Sans:400,400i,600,600i,700,700i");
+
+//*************************** Theme Colours****************************/
+/*
+|----------------------------------------------------------------------------
+   2. Define theme colour scheme
+|----------------------------------------------------------------------------
+*/
+
+$font-family_1: fontAwesome;
+$border-color_1: rgba(255, 255, 255, 0.3);
+$border-color_2: #cc005f;
+
+$color_1: #4e4e4e;
+$color_2: #1e1e1e;
+$color_3: #cc005f;
+$color_4: #f5f5f5;
+$color_5: #fff;
+$color_6: #cde1f8;
+$background-color_1: #f5f5f5;
+$background-color_2: #cc005f;
+$background-color_3: #fff;
+$background-color_4: #cde1f8;
+$background-color_5: #1b1b1b;
+$background-color_6: #0062d3;
+$background-color_7: rgba(0, 0, 0, 0.6);
+$background-color_8: transparent;
+$background-color_9: rgba(255, 255, 255, 0.4);
+$border-color_1: #cde1f8;
+$border-color_2: #cc005f;
+$border-top-color_1: #eee;
+$color: #778492;
+$btn-color: #54ba4e;
+$btn-color-2: #479fc8;
+$text-color: #434343;
+$text-color-secondary: #666;
+$grey: #999;
+$divider: #e8e8e8;
+$lighter-grey: #ccc;
+$darker-grey: #666;
+$smoky-white: #f5f5f5;
+$background: #dae3e7;
+$heart: #fb866a;
+
+$dm-background: #17191c;
+$dm-text-color: rgba(256, 256, 256, 0.9);
+$dm-text-color-secondary: rgba(256, 256, 256, 0.7);
+
+//*************************** Theme Styles ****************************/
+// Import theme styles
+
+@import "general";
+@import "base";
+@import "header";
+@import "banner";
+@import "social";
+@import "footer";
+
+// @import "dark-mode";
+// @import "responsive";
+
+@import "tot";
