@@ -22,6 +22,8 @@
       }
     }
   }
+
+
   .skill-mf {
     span {
       color: $color_1;
@@ -33,7 +35,31 @@
       height: 0.7rem;
       .progress-bar {
         height: 0.7rem;
-        background-color: $background-color_2;
-      }
+        background-color: $background-color_4;
+        .progress-bar-pre {
+          height: 0.7rem;
+          background-color: $background-color_4;
+        }
+        .progress-bar-load {
+          animation-name: progress-bar-loader;
+          animation-duration: 2s;
+          animation-fill-mode: forwards;
+        } 
     }
   }
+}
+
+@keyframes progress-bar-loader{
+  0% {
+    width: 0%;
+    background-color: $background-color_2;
+  }
+  33%{
+    width: 33%;
+    background-color: $background-color_2;
+  }
+  100% {
+    width: 100%;
+    background-color: $background-color_2;
+  }
+}
