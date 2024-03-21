@@ -15,4 +15,4 @@ import './js/arrow.js';
 
 import './js/validare.js';
 
-import './js/skillbar.js'
+import "./js/skill.js";

@@ -1,7 +1,8 @@
-//  * Template Name: Developer - Portfolio/CV/Resume
-// * Version: Bootstrap 5.3.3 +Webpack 5.90.3 
-// * Author: Adrian Adiaconitei for LinkAcademy
-// */
+/*!   
+ * Template Name: Developer - Portfolio/CV/Resume
+ * Version: Bootstrap 5.3.3 +Webpack 5.90.3 
+ * Author: Adrian Adiaconitei for LinkAcademy
+*/
 
 // Import all of Bootstrap's CSS
 @import "~bootstrap/scss/bootstrap";
@@ -10,7 +11,7 @@ $bootstrap-icons-font-dir: "~bootstrap-icons/font/fonts";
 
 /*
 |----------------------------------------------------------------------------
-   1. FONTS: Google Font
+	1. FONTS: Google Font
 |----------------------------------------------------------------------------
 */
 @import url("https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i|Open+Sans:400,400i,600,600i,700,700i");
@@ -18,35 +19,49 @@ $bootstrap-icons-font-dir: "~bootstrap-icons/font/fonts";
 //*************************** Theme Colours****************************/
 /*
 |----------------------------------------------------------------------------
-   2. Define theme colour scheme
+	2. Define theme colour scheme
 |----------------------------------------------------------------------------
 */
 
-$font-family_1: fontAwesome;
-$border-color_1: rgba(255, 255, 255, 0.3);
-$border-color_2: #cc005f;
+$font-family_1: "Roboto", Helvetica, Arial, sans-serif;
+$font-family_2: "Montserrat", sans-serif;
 
 $color_1: #4e4e4e;
-$color_2: #1e1e1e;
+$color_2: #1a1a1a;
 $color_3: #cc005f;
 $color_4: #f5f5f5;
-$color_5: #fff;
-$color_6: #cde1f8;
-$background-color_1: #f5f5f5;
-$background-color_2: #cc005f;
-$background-color_3: #fff;
-$background-color_4: #cde1f8;
-$background-color_5: #1b1b1b;
-$background-color_6: #0062d3;
-$background-color_7: rgba(0, 0, 0, 0.6);
-$background-color_8: transparent;
-$background-color_9: rgba(255, 255, 255, 0.4);
-$border-color_1: #cde1f8;
-$border-color_2: #cc005f;
+$color_5: #075b35;
+$color_6: #075b35;
+
+$red: #c0392b;
+$blue: #075997;
+$purple: #9b59b6;
+$orange: #ffa500;
+$green: $color_5;
+$reactColor: rgb(20 158 202/0.7);
+$vueColor: #42b883;
+$angularColor: #f9174d;
+$animation-delay: 0.7s;
+
+$border-color_1: rgba(255, 255, 255, 0.3);
+$border-color_2: $vueColor;
 $border-top-color_1: #eee;
-$color: #778492;
-$btn-color: #54ba4e;
-$btn-color-2: #479fc8;
+
+$progressbar-title-color: #fff;
+
+$background-color_1: #ffffff;
+$background-color_2: $color_3;
+$background-color_3: $color_2;
+$background-color_4: #0062d3;
+$background-color_5: transparent;
+$background-color_6: blue;
+$background-color_7: blue;
+$background-color_8: blue;
+$background-color_9: blue;
+
+$li-padding: 5px;
+$btn-color: $vueColor;
+$btn-color-2: $reactColor;
 $text-color: #434343;
 $text-color-secondary: #666;
 $grey: #999;
@@ -70,13 +85,11 @@ $dm-text-color-secondary: rgba(256, 256, 256, 0.7);
 @import "banner";
 @import "social";
 @import "about";
-@import "contact";
-@import "validare";
 @import "arrow";
+// @import "experience";
+@import "contact";
 @import "footer";
 
-
 // @import "dark-mode";
-// @import "responsive";
 
 @import "tot";
