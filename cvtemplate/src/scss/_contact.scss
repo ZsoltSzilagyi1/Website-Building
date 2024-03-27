@@ -9,6 +9,9 @@
       transform: rotate(360deg);
     }
   }
+  .overlay-mf{
+    background: $background-color_3;
+  }
   .footer-paralax {
     padding: 4rem 0 0 0;
   }
@@ -69,7 +72,7 @@
       }
     }
     button[type="submit"] {
-      background: #0078ff;
+      background: $background-color_3;
       border: 0;
       padding: 10px 24px;
       color: $color_1;

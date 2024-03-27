@@ -9,6 +9,9 @@
 $bootstrap-icons-font-dir: "~bootstrap-icons/font/fonts";
 @import "~bootstrap-icons/font/bootstrap-icons.scss";
 
+// Import glightbox
+@import "../../node_modules/glightbox/dist/css/glightbox.min.css";
+
 /*
 |----------------------------------------------------------------------------
 	1. FONTS: Google Font
@@ -30,7 +33,7 @@ $color_1: #4e4e4e;
 $color_2: #1a1a1a;
 $color_3: #cc005f;
 $color_4: #f5f5f5;
-$color_5: #075b35;
+$color_5: #17c476;
 $color_6: #075b35;
 
 $red: #c0392b;
@@ -51,11 +54,11 @@ $progressbar-title-color: #fff;
 
 $background-color_1: #ffffff;
 $background-color_2: $color_3;
-$background-color_3: $color_2;
+$background-color_3: $color_4;
 $background-color_4: #0062d3;
 $background-color_5: transparent;
 $background-color_6: blue;
-$background-color_7: blue;
+$background-color_7: $color_1;
 $background-color_8: blue;
 $background-color_9: blue;
 
@@ -86,7 +89,8 @@ $dm-text-color-secondary: rgba(256, 256, 256, 0.7);
 @import "social";
 @import "about";
 @import "arrow";
-// @import "experience";
+@import "experience";
+@import "portfolio";
 @import "contact";
 @import "footer";
 
