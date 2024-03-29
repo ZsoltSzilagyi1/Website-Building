@@ -17,4 +17,6 @@ import './js/validare.js';
 
 import "./js/skill.js";
 
+import "./js/githubapi.js";
+
 // import "./js/experience./js"

@@ -20,6 +20,7 @@ const myAbout = fs.readFileSync(paths.source + '/views/about.html');
 const myContact = fs.readFileSync(paths.source + '/views/contact.html');
 const myExperience = fs.readFileSync(paths.source + '/views/experience.html');
 const myPortfolio = fs.readFileSync(paths.source + '/views/portfolio.html');
+const myGithub = fs.readFileSync(paths.source + '/views/githubapi.html');
 const myFooter = fs.readFileSync(paths.source + '/views/footer.html');
 
 module.exports = {
@@ -45,6 +46,7 @@ module.exports = {
             myContact: myContact,
             myExperience: myExperience,
             myPortfolio: myPortfolio,
+            myGithub: myGithub,
             myFooter: myFooter,
             template: './src/index.html',
             filename: 'index.html',
