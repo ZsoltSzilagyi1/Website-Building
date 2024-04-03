@@ -19,4 +19,6 @@ import "./js/skill.js";
 
 import "./js/githubapi.js";
 
+import "./js/translate.js";
+
 // import "./js/experience./js"
