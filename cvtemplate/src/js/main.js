@@ -159,8 +159,10 @@ import GLightbox from 'glightbox';
      */
 
     const typed = select('.typed')
+    window.setTimeout((e) => { 
     if (typed) {
         let typed_strings = typed.getAttribute('data-typed-items')
+        console.log(typed_strings);
         typed_strings = typed_strings.split(',')
         new Typed('.typed', {
             strings: typed_strings,
@@ -169,7 +171,9 @@ import GLightbox from 'glightbox';
             backSpeed: 50,
             backDelay: 2000
         });
+        
     }
+    },500)
 
     /**
      * Initiate portfolio lightbox 

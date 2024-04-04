@@ -14,6 +14,13 @@ function buildJSON() {
             [key]: value
         })
     })
+    $("[data-typed-tr]").each(function () {
+        const value = $(this)[0].attribs['data-typed-items'];
+        let key = $(this)[0].attribs['data-typed-tr'];
+        wordsTr.push({
+            [key]: value
+        })
+    })
     // console.log(wordsTr);
     // Pas 2 transform in json
     const myJson = Object.assign({}, ...wordsTr)

@@ -16,6 +16,11 @@ function updateContent(langData) {
         const key = element.getAttribute('data-tr');
         element.textContent = langData[key];
     });
+    document.querySelectorAll('[data-typed-tr]').forEach(element => {
+        const key = element.getAttribute('data-typed-tr');
+        element.setAttribute('data-typed-items', langData[key]);
+        console.log("translate-ro");
+    });
 
 }
 
@@ -37,7 +42,7 @@ window.changeLanguage = function (lang) {
 
 // Call updateContent() on page load
 window.addEventListener('DOMContentLoaded', async () => {
-    const userPreferredLanguage = localStorage.getItem('language') || 'ro';
+    const userPreferredLanguage = localStorage.getItem('language') || 'en';
     document.documentElement.setAttribute('lang', userPreferredLanguage);
     const langData = await fetchLanguageData(userPreferredLanguage);
     updateContent(langData);
