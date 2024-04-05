@@ -3,6 +3,7 @@
  * Version: Bootstrap 5.3.3 +Webpack 5.90.3 
  * Author: Adrian Adiaconitei for LinkAcademy
 */
+@import "darkmode";
 
 // Import all of Bootstrap's CSS
 @import "~bootstrap/scss/bootstrap";
@@ -25,6 +26,7 @@ $bootstrap-icons-font-dir: "~bootstrap-icons/font/fonts";
 	2. Define theme colour scheme
 |----------------------------------------------------------------------------
 */
+
 
 $font-family_1: "Roboto", Helvetica, Arial, sans-serif;
 $font-family_2: "Montserrat", sans-serif;
@@ -79,6 +81,7 @@ $dm-background: #17191c;
 $dm-text-color: rgba(256, 256, 256, 0.9);
 $dm-text-color-secondary: rgba(256, 256, 256, 0.7);
 
+
 //*************************** Theme Styles ****************************/
 // Import theme styles
 
@@ -95,6 +98,6 @@ $dm-text-color-secondary: rgba(256, 256, 256, 0.7);
 @import "contact";
 @import "footer";
 
-// @import "dark-mode";
+
 
 @import "tot";

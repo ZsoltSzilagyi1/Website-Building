@@ -21,4 +21,6 @@ import "./js/githubapi.js";
 
 import "./js/translate.js";
 
+import "./js/darkmode.js";
+
 // import "./js/experience./js"
